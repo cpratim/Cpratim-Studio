@@ -1,0 +1,96 @@
+:root {
+    --center-height: 350px;
+    --center-width: 450px;  
+}
+
+
+.underline {
+    display: inline;
+    width: 60%;
+}
+
+.button {
+    padding: 10%;
+    opacity: .6;
+    transition: .5s all;
+    font-size: 20px;
+}
+
+.button:hover {
+    opacity: 1;
+    padding-left: 20%;
+    cursor: pointer;
+}
+
+#cine {
+    font-weight: 400;
+    height: calc(100/8vh);
+    overflow-x: hidden;
+    position: relative;
+    overflow-y: hidden;
+    width: 118vw;
+    font-size: 20px;
+    line-height: 50px;
+    filter: blur(0px);
+    font-style: italic;
+    opacity: .25;
+    letter-spacing: 7px;
+    user-select: none;
+}
+
+#center-box {
+    height: var(--center-height);
+    width: var(--center-width);
+    position: absolute;
+    left: calc((100vw - var(--center-width))/2);
+    top: calc((100vh - var(--center-height))/2);
+    border: 0px solid black;
+    display: flex;
+}
+
+#profile-pic {
+    background-image: url('../misc/profile.jpeg');
+    width: calc(var(--center-width));
+    height: calc(var(--center-height));
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 3px 5px -5px rgba(0,0,0,0.75);
+}
+
+#name-header {
+    font-size: 45px;
+    padding: 15%;
+    padding-bottom: 0%;
+}
+
+#text-wrapper {
+    display: table;
+    width: 50%;
+}
+
+#menu {
+    display: table;
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+#cine-wrapper {
+    z-index: -1;
+    position: absolute;
+    width: 120vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#disc {
+    position: absolute;
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 180px;
+    padding: 15px;
+    left: calc(100vw - 250px);
+    top: 4vh;
+    box-shadow: 1px 3px 14px 0px rgba(255,255,255,0.18);
+}
+

@@ -1,0 +1,74 @@
+
+#projects-wrapper {
+    height: calc(100vh - var(--center-height)/2);
+    width: var(--center-width);
+    position: absolute;
+    left: calc((100vw - var(--center-width))/2);
+    top: 5vh;
+    border: 0px solid black;
+}
+
+
+#header {
+	font-weight: bold;
+	font-size: 40px;
+	padding-right: 10px;
+}
+
+.underline {
+	margin-top: 20px;
+}
+
+.project {
+	height: auto;
+	width: 90%;
+	margin-left: 1%;
+	box-shadow: -1px 1px 10px -2px rgba(0,0,0,0.08);
+	margin-top: 8px;
+	transition: .5s all;
+    border-bottom: 1px solid white;
+}
+
+.project:hover {
+	box-shadow: -1px 1px 10px -2px rgba(0,0,0,0.24);
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+#projects {
+	height: 100%;
+	scrollbar-width: none;
+	overflow-y: scroll;
+	width: 110%;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.text-wrapper {
+	padding: 15px;
+}
+
+.text {
+	padding-bottom: 5px;
+}
+
+#menu {
+	display: flex;
+}
+
+.button {
+    opacity: .6;
+    transition: .5s all;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.button:hover {
+    opacity: 1;
+    padding-top: 15px;
+    cursor: pointer;
+}

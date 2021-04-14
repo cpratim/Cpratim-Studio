@@ -1,0 +1,86 @@
+[
+    {
+        "desc": "Using Statistics and Machine learning to bet on NBA Games (OU/MoneyLine)",
+        "updated": "2021-04-09 03:50:09",
+        "href": "https://github.com/cpratim/Basketball-Betting",
+        "title": "Basketball-Betting",
+        "language": "Python"
+    },
+    {
+        "desc": "audio sharing platform",
+        "updated": "2021-04-09 03:38:56",
+        "href": "https://github.com/cpratim/BitShare",
+        "title": "BitShare",
+        "language": "JavaScript"
+    },
+    {
+        "desc": "Convolutional Neural Network based on features extracted from Symbolic transformation and clustering for stock predictions",
+        "updated": "2021-04-09 03:40:26",
+        "href": "https://github.com/cpratim/Convolutional-Trader",
+        "title": "Convolutional-Trader",
+        "language": "Python"
+    },
+    {
+        "desc": "personal portfolio website",
+        "updated": "2021-04-09 03:39:40",
+        "href": "https://github.com/cpratim/Cpratim-Studio",
+        "title": "Cpratim-Studio",
+        "language": "CSS"
+    },
+    {
+        "desc": null,
+        "updated": "2021-04-09 03:41:27",
+        "href": "https://github.com/cpratim/Discoin",
+        "title": "Discoin",
+        "language": "Python"
+    },
+    {
+        "desc": "generates features from raw datasets using genetic methods instead of random search",
+        "updated": "2020-11-02 03:22:36",
+        "href": "https://github.com/cpratim/Genetic-Feature-Generation",
+        "title": "Genetic-Feature-Generation",
+        "language": "Python"
+    },
+    {
+        "desc": "Simple Music player created with flask",
+        "updated": "2021-04-09 03:40:59",
+        "href": "https://github.com/cpratim/Music-Player",
+        "title": "Music-Player",
+        "language": "CSS"
+    },
+    {
+        "desc": "Models for Numer AI data challenge (https://numer.ai)",
+        "updated": "2021-04-09 05:45:07",
+        "href": "https://github.com/cpratim/NumerAI",
+        "title": "NumerAI",
+        "language": "Python"
+    },
+    {
+        "desc": null,
+        "updated": "2021-04-09 03:40:40",
+        "href": "https://github.com/cpratim/Secure-Cloud",
+        "title": "Secure-Cloud",
+        "language": "Python"
+    },
+    {
+        "desc": "Lexus Eco Challenge Project",
+        "updated": "2021-04-09 03:39:25",
+        "href": "https://github.com/cpratim/SmartBus-Lexus-Eco",
+        "title": "SmartBus-Lexus-Eco",
+        "language": "Python"
+    },
+    {
+        "desc": "bot for paper trading on discord",
+        "updated": "2021-04-09 03:38:18",
+        "href": "https://github.com/cpratim/Stocks-Bot-Discord",
+        "title": "Stocks-Bot-Discord",
+        "language": "Python"
+    },
+    {
+        "desc": "File Sharing Service, Using Web Server",
+        "updated": "2021-04-09 03:41:10",
+        "href": "https://github.com/cpratim/Transmission",
+        "title": "Transmission",
+        "language": "Python"
+    }
+]

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projects</title>
+	<link rel='stylesheet' href='../static/css/projects.css'>
+	<link rel='stylesheet' href='../static/css/common.css'>
+</head>
+<body>
+
+	<div id='projects-wrapper'>
+		<div id='menu'>
+		<div id='header'>projects</div>
+
+			<a href='/'><div class='button'>home</div></a>
+			<div class='button'>about</div>
+			<a href='/resume'><div class='button'>resume</div></a>
+			<div class='button'>contact</div>
+		</div>
+		<hr class='underline'>
+		<div id='projects'>
+			{% for project in _projects %}
+				<a href='{{project["href"]}}'>
+					<div class='project'>
+						<div class='text-wrapper'>
+							<div class='title text'>{{ project['title'] }}</div>
+							<div class='desc text'>{{ project['desc'] }}</div>
+							<div class='language text'>Written in: <i>{{ project['language'] }}</i></div>
+							<div class='updated text'>Last Updated: <i>{{ project['updated'] }}</i></div>
+						</div>
+					</div>
+				</a>
+			{% endfor %}
+		</div>
+	</div>
+</body>
+</html>

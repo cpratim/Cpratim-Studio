@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Me</title>
+	<link rel='stylesheet' href='../static/css/about.css'>
+	<link rel='stylesheet' href='../static/css/common.css'>
+</head>
+<body>
+	<div id='header-wrapper'>
+		<div id='header'>About Me</div>
+		<div id='menu'>
+			<a href='/'><div class='button'>home</div></a>
+			<a href='/projects'><div class='button'>projects</div></a>
+			<a href='/resume'><div class='button'>resume</div></a>
+			<a href='/about'><div class='button'>about</div></a>
+
+		</div>
+	</div>
+	<div id='about'>
+		My name is Pratim Chowdhary and I am a Dartmouth Computer Science and Mathematics
+		student from Jericho, Long Island. I am a first generation immigrant and come from Indian
+		heritage. Ever since middle school I have been working on programming projects, learning
+		everything from full stack programming to advanced machine learning along the way. As an 
+		extension of my passion for computer science, I've picked up a strong knowledge of mathematics
+		along the way, with everything from probability theory to multivariable calculus. In my free 
+		time I love playing sports, and was part of the Jericho High School Varisty Wrestling and Track
+		and Field teams. I hope to one day create my own startup and use my passion as a way to 
+		advance the progress of the underprivelaged around the world. 
+	</div>
+	<div id='images'>
+		{% for image in images %}
+			<div class='image-wrapper'>
+				<div class='image' style='background-image: url("{{image}}")'></div>
+			</div>
+		{% endfor %}
+	</div>
+
+</body>
+</html>
