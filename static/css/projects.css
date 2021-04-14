@@ -1,3 +1,7 @@
+:root {
+    --center-height: 350px;
+    --center-width: 450px;  
+}
 
 #projects-wrapper {
     height: calc(100vh - var(--center-height)/2);
