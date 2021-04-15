@@ -3,7 +3,9 @@
     --center-width: 450px;  
 }
 
-
+body {
+    overflow-y: hidden;
+}
 .underline {
     display: inline;
     width: 60%;
@@ -31,9 +33,9 @@
     width: 118vw;
     font-size: 20px;
     line-height: 50px;
-    filter: blur(0px);
+    filter: blur(.5px);
     font-style: italic;
-    opacity: .25;
+    opacity: .15;
     letter-spacing: 7px;
     user-select: none;
 }
